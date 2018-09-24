@@ -1,0 +1,22 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+"discord.py" = {extras = ["voice"]}
+requests = "*"
+"psycopg2" = "*"
+setuptools = "*"
+python-ninegag = "*"
+"beautifulsoup4" = "*"
+pynacl = "*"
+opuslib = "*"
+youtube-dl = "*"
+
+
+[dev-packages]
+
